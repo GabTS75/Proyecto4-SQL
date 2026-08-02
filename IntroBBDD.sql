@@ -16,8 +16,8 @@ WHERE
     status = 'On Time';
 
 -- NOTA:
--- agregué la columna route_no siguiendo tu sugerencia.
--- comillas simples para comparar cadenas de texto (literales).
+-- Aregué la columna route_no siguiendo la sugerencia en clase.
+-- Uso comillas simples para comparar cadenas de texto (literales).
 -- ==================================================
 
 -- 2. Escribe una consulta que extraiga todas las columnas de la tabla bookings
@@ -69,7 +69,7 @@ WHERE
     r.airplane_code = '733';
 
 -- NOTA:
--- agregué la columna airplane_code para mostra el dato '733' (que no encuentra).
+-- Agregué la columna airplane_code para mostrar el dato '733' (que no encuentra).
 -- Alternativa con Subconsulta (IN):
 -- SELECT 
 --     flight_id 
@@ -82,7 +82,7 @@ WHERE
 --         FROM 
 --             Routes
 --         WHERE 
---             airplane_code = '789' -- (si encontramos)
+--             airplane_code = '789' -- (ahora si encuentra)
 --     );
 -- ==================================================
 
@@ -100,8 +100,8 @@ WHERE
 
 -- NOTA:
 -- Usando ILIKE '%Irina%' buscamos la palabra "Irina" dentro del nombre del
--- pasajero, sin considerar si está al inicio, en medio o al final (los %) e
--- ignorando mayúsculas y minúsculas con ILIKE.
+-- pasajero, sin considerar si está al inicio, en medio o al final con los %
+-- e ignorando mayúsculas y minúsculas con ILIKE.
 -- ==================================================
 
 -- 6. Mostrar las ciudades con más de un aeropuerto.
@@ -119,8 +119,8 @@ HAVING
     COUNT(airport_code) > 1;
 
 -- NOTA:
--- Usando GROUP BY city, logro agrupar todos los registros que pertenecen a
--- la misma ciudad.
+-- Usando GROUP BY city, consigo agrupar todos los registros que pertenecen
+-- a la misma ciudad.
 -- El COUNT(airport_code), cuenta los aeropuertos en cada grupo.
 -- Y con el HAVING, filtro los grupos después de agruparlos (a diferencia
 -- de WHERE, que filtra filas individuales antes de agrupar).
@@ -141,7 +141,7 @@ GROUP BY
     a.model;
 
 -- NOTA:
--- Para unir las 3 tablas que necesito con JOIN
+-- Plantilla para unir las 3 tablas que necesito con JOIN:
 -- FROM TablaA a
 -- JOIN TablaB b ON a.clave_comun = b.clave_comun
 -- JOIN TablaC c ON b.otra_clave_comun = c.otra_clave_comun
@@ -164,7 +164,7 @@ ORDER BY
     total_tickets DESC;
 
 -- NOTA:
--- Similar al ejercicio 6, además agrago ORDER BY para visualizar de mayor
+-- Similar al ejercicio 6, además añadí ORDER BY para visualizar de mayor
 -- a menor, usando DESC (ascendente "ASC" es el valor por defecto)
 -- ==================================================
 
@@ -185,6 +185,6 @@ WHERE
     actual_departure - scheduled_departure > INTERVAL '1 hour';
 
 -- NOTA:
--- En PostgreSQL (y en SQL estándar), para que la base de datos sepa que
--- '1 hour' es un lapso de tiempo y no un texto plano, debemos escribir
--- antes la palabra clave INTERVAL.
+-- En PostgreSQL (y en SQL), para que la base de datos sepa que '1 hour'
+-- es un rango de tiempo y no un texto plano, debemos escribir antes
+-- la palabra clave INTERVAL.
