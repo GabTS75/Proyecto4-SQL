@@ -42,7 +42,7 @@ Entonces, sigue estos pasos para la “**Edición**” del `Path`.
     3. En la ventana del terminal, escribe: `psql --version` y “Enter”.
     4. Debería verse en pantalla, algo así:
 
-        ![image04.png](imgs/image04.png)
+    ![image04.png](imgs/image04.png)
 
 ### Paso 2: `instalar`/`importar` fichero `.sql`
 
