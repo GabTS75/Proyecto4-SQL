@@ -23,7 +23,7 @@ Entonces, sigue estos pasos para la “**Edición**” del `Path`.
 
     ![image00.png](imgs/image00.png)
 
-4. Haz clic abajo en el botón `Variables de entorno**...**`
+4. Haz clic abajo en el botón `Variables de entorno...`
 
     ![image01.png](imgs/image01.png)
 
@@ -46,7 +46,7 @@ Entonces, sigue estos pasos para la “**Edición**” del `Path`.
 
 ### Paso 2: `instalar`/`importar` fichero `.sql`
 
-> **Observación:** Al descargar el archivo `.sql.gz`, se encuentra “comprimido”. El `.gz` nos indica que utiliza la tecnología **Gzip** (GNU zip) y sirve para reducir el tamaño de un archivo individual y ahorrar espacio en el disco o acelerar su transferencia en internet.
+> **Observación:** Al descargar el archivo `.sql.gz`, este se encuentra “comprimido”. El `.gz` nos indica que utiliza la tecnología **Gzip** (GNU zip) y sirve para reducir el tamaño de un archivo individual y ahorrar espacio en el disco o acelerar su transferencia en internet.
 
 Pues bien, tenemos dos caminos para “`instalar`/`importar`” la **Base de Datos** a nuestro **postgreSQL**:
 
@@ -64,14 +64,16 @@ Pues bien, tenemos dos caminos para “`instalar`/`importar`” la **Base de Dat
 
     Verificando que el nombre sea **exactamente el mismo** del fichero `.sql` que os hayáis descargado.
 
-    > **NOTA:** Puede que te pida que ingreses la contraseña de postgres.
+> **NOTA:** Puede que te pida que ingreses la contraseña de postgres.
 
-    Esperamos pacientemente a que termine de `instalar`/`importar` la BBDD y listo! 🥳🎉
+Ahora solo queda esperar pacientemente un par de minutos a que termine de `instalar`/`importar` la BBDD y listo! 🥳🎉
 
 ### Paso 3: Ejecutar `postgreSQL`/`pgAdmin 4` y cargar la BBDD
 
-Finalmente, abrimos nuestro `pgAdmin 4`,  buscamos la Base de Datos “**demo**”, y haciendo **clic derecho**, elegimos “**Query Tool**” para comenzar a realizar nuestras consultas.
+Finalmente, abrimos nuestro `pgAdmin 4`,  buscamos la Base de Datos “**demo**”, y haciendo **clic derecho** sobre él, elegimos “**Query Tool**” para comenzar a realizar nuestras consultas.
 
 ![image08.png](imgs/image08.png)
 
-Ahora sí, como ya tenemos todo preparado, comencemos con el desarrollo del proyecto, ¡Vamos! 🫵😎✨
+Ahora que ya tenemos todo preparado, comencemos con el desarrollo del proyecto, ¡Vamos, tu puedes! 🫵😎✨
+
+![tu_puedes.png](imgs/tu_puedes.png)
