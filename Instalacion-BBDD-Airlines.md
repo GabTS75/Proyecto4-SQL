@@ -76,4 +76,4 @@ Finalmente, abrimos nuestro `pgAdmin 4`,  buscamos la Base de Datos “**demo**�
 
 Ahora que ya tenemos todo preparado, comencemos con el desarrollo del proyecto, ¡Vamos, tu puedes! 🫵😎✨
 
-![tu_puedes.png](imgs/tu_puedes.png)
+![tu_puedes.jgp](imgs/tu_puedes.jpg)
